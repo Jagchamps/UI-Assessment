@@ -8,7 +8,7 @@ const AccountContact = ({ supportContact }) => {
   return (
     <StyledAccountContact className="account-contact col col-xs-6" data-testid="contact-panel">
       <div className="flex-container flex-container--start">
-        <h3 className="col col-xs-12">YOUR FEEFO SUPPORT CONTACT</h3>
+        <h2 className="col col-xs-12">YOUR FEEFO SUPPORT CONTACT</h2>
         <div className="col col-xs-3 col-ms-2">
           <div className="btn">
             <b className="btn-inner">S</b>

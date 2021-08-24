@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { media } from '../../media';
 
 export const StyledAccountContact = styled.section`
-    h3 {
+    h2 {
         color:  ${({ theme }) => theme.syntax.light}; 
         margin-bottom: 0.5em;
     }
@@ -33,8 +33,8 @@ export const StyledAccountContact = styled.section`
             width: 48px;
         `};
 
-
         b {
+            color: ${({ theme }) => theme.syntax.dark};
             font-size: 0.9em;
 
             ${media.s`
@@ -43,7 +43,11 @@ export const StyledAccountContact = styled.section`
         }
     }
 
-    .fa-envelope: {
+    .fa-envelope {
         margin-right: 0.2em;
+    }
+
+    .phone-text {
+        text-align: right;
     }
 `;

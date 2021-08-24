@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { media } from '../../media';
 
 export const StyledAccountSales = styled.section`
     background-color: ${({ theme }) => theme.bg.light};
@@ -19,7 +20,16 @@ export const StyledAccountSales = styled.section`
         margin-bottom: 0;
         position: relative;
 
-        h3,
+        h2 {
+            color: ${({ theme }) => theme.syntax.dark};
+            font-size: 1rem;
+            margin-bottom: 1em;
+
+            ${media.ms`
+                font-size: 1.2rem;
+            `};
+        }
+
         p {
             margin-bottom: 1em;
         }

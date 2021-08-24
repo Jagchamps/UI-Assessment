@@ -23,4 +23,9 @@ export const StyledSuccessPanel = styled.div`
             font-size: 2em;
         `};
     }
+
+    p {
+        font-weight: 700;
+        color: ${({ theme }) => theme.syntax.light}; 
+    }
 `;

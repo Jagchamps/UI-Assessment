@@ -1,17 +1,17 @@
 export const theme = {
     syntax: {
-        main: '#4c494a',
-        light: '#b9b7b7',
+        main: '#4F4F4F',
+        light: '#767474',
         dark: '#333333',
-        bold: '#606060'
+        bold: '#413E3F'
     },
     colour: {
         blue: '#3eb1eb',
-        green: '#22ab55',
+        green: '#18773B',
         yellow: '#f9cf03',
     },
     bg: {
-        main: '#f4f4f4',
+        main: '#F5F5F5',
         light: '#ffffff'
     } 
 };
