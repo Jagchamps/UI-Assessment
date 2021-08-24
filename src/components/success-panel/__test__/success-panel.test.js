@@ -43,7 +43,7 @@ describe("Panel should have correct styling", () => {
         );
         const panelElement = screen.getByTestId('success-panel');
         expect(panelElement).toBeVisible();
-        expect(panelElement).toHaveStyle('border-right: 1px solid #f4f4f4;');
+        expect(panelElement).toHaveStyle('border-right: 1px solid #F5F5F5;');
     });
 
     it("Should render a border on the left when the end panel", () => {
@@ -52,6 +52,6 @@ describe("Panel should have correct styling", () => {
         );
         const panelElement = screen.getByTestId('success-panel');
         expect(panelElement).toBeVisible();
-        expect(panelElement).toHaveStyle('border-left: 1px solid #f4f4f4;');
+        expect(panelElement).toHaveStyle('border-left: 1px solid #F5F5F5;');
     });
 })
