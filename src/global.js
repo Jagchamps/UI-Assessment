@@ -25,19 +25,24 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   h1 {
-    font-size: 1.2em;
+    color: ${({ theme }) => theme.syntax.dark};
+    font-size: 1.2rem;
 
     ${media.s`
-      font-size: 1.5em;
+      font-size: 1.5rem;
     `};
   }
 
-  h3 {
-    font-size: 0.7em;
+  h2 {
+    font-size: 0.7rem;
 
     ${media.ms`
-      font-size: 0.9em;
+      font-size: 0.9rem;
     `};
+  }
+
+  b {
+    color: ${({ theme }) => theme.syntax.bold};
   }
 
   b,

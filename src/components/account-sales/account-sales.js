@@ -9,7 +9,7 @@ const AccountSales = ({ salesOverview }) => {
     return (
         <StyledAccountSales className="col col-xs-12" data-testid="sales-panel">
             <div className="account-sales-top col col-xs-12">
-                <h3><FontAwesomeIcon icon={faUpload} className="fa-upload"/>Sales</h3>
+                <h2><FontAwesomeIcon icon={faUpload} className="fa-upload"/>Sales</h2>
                 <p data-testid="sales-message-element">
                     You had <b>{salesOverview.successfulUploads} {salesOverview.successfulUploads === 1 ? 'upload' : 'uploads'}</b> and <b>{salesOverview.linesSaved} {salesOverview.linesSaved === 1 ? 'line' : 'lines'}</b> added.
                 </p>
