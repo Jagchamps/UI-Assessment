@@ -5,8 +5,6 @@ import { StyledAccountOverview } from './account-overview.styled';
 import PropType from 'prop-types'
 
 const AccountOverview = ({ data }) => {
-  //console.log(data);
-
   return (
     <StyledAccountOverview className="account-overview flex-container" data-testid="overview-panel">
       <div className="section-inner">
